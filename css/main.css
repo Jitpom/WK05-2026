@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+section .box {
+  height: 200px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section .box1 {
+  background-color: #59fb69;
+}
+section .box2 {
+  background-color: #383a39;
+}
+section .box3 {
+  background-color: rgb(39.2, 249.8, 60);
+}/*# sourceMappingURL=main.css.map */

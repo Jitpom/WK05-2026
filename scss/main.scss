@@ -1,0 +1,27 @@
+$primary-color: #59fb69;
+$secondary-color: #383a39;
+section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    .box{
+        height: 200px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .box1{
+        background-color: $primary-color;
+    }
+    
+    .box2{
+        background-color: $secondary-color;
+    }
+    
+    .box3{
+        background-color: darken($primary-color, 10%);
+    }
+}
