@@ -9,17 +9,17 @@
     color: white;
 }
 
-@mixin flex-container($align-items: center, $gap: 4px) {
+@mixin flex-container($align-items: center, $gp: 4px, $padding: 20px) {
     display: flex;
     justify-content: center;
     align-items: $align-items;
-    gap: $gap;
+    gap: $gp;
+    padding: $padding;
 }
 
 
 section {
-    @include flex-container($gap:20px);
-    padding: 20px;
+    @include flex-container($gp: 20px, $align-items: flex-start);
     .box{
         height: 200px;
         flex-grow: 1;
