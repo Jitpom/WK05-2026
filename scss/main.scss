@@ -1,6 +1,5 @@
-$primary-color: #59fb69;
-$secondary-color: #383a39;
-$pom-color: #54d0c9;
+@use '_variables';   
+@use '_reset';
 
 section {
     display: flex;
@@ -12,18 +11,18 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: $pom-color;    
+        color: variables.$pom-color;
     }
 
     .box1{
-        background-color: $primary-color;        
+        background-color: variables.$primary-color;        
     }
     
     .box2{
-        background-color: $secondary-color;
+        background-color: variables.$secondary-color;
     }
     
     .box3{
-        background-color: $pom-color;
+        background-color: variables.$pom-color;
     }
 }
