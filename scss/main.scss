@@ -1,5 +1,7 @@
 $primary-color: #59fb69;
 $secondary-color: #383a39;
+$pom-color: #54d0c9;
+
 section {
     display: flex;
     gap: 20px;
@@ -10,11 +12,11 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: $pom-color;    
     }
 
     .box1{
-        background-color: $primary-color;
+        background-color: $primary-color;        
     }
     
     .box2{
@@ -22,6 +24,6 @@ section {
     }
     
     .box3{
-        background-color: darken($primary-color, 10%);
+        background-color: $pom-color;
     }
 }
