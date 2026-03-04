@@ -74,7 +74,7 @@ section {
 }
 section .box {
   height: 350px;
-  width: 33.3333333333%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
