@@ -18,13 +18,28 @@
 }
 
 
+.pom{
+    color: variables.$pom-color;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading{
+    @extend .pom;
+    color: variables.$secondary-color;
+}
+
 section {
     @include flex-container($gp: 20px, $align-items: flex-start);
     .box{
-        height: 200px;
-        flex-grow: 1;
+        height: 200px + 150px;
+        width: calc(100% / 3);
+        // flex-grow: 1;
         @include flex-container();
         color: variables.$pom-color;
+        font-size: (100/20)+rem;
     }
 
     .box1{

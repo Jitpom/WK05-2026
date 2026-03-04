@@ -53,6 +53,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.pom, .heading {
+  color: #54d0c9;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading {
+  color: #383a39;
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -61,14 +73,15 @@ section {
   padding: 20px;
 }
 section .box {
-  height: 200px;
-  flex-grow: 1;
+  height: 350px;
+  width: 33.3333333333%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
   padding: 20px;
   color: #54d0c9;
+  font-size: 5rem;
 }
 section .box1 {
   background-color: #383a39;
