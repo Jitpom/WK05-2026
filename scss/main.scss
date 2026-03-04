@@ -52,6 +52,11 @@ section {
     
     .box2{
         @include box-color(20px);  
+        transition: 1s all ease-in-out;
+        &.active{
+            transform: translateY(200px);
+            background-color: variables.$secondary-color;
+        }
     }
     
     .box3{

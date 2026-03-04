@@ -96,6 +96,11 @@ section .box2 {
   background-color: 20px;
   box-shadow: 4px 4px 10px grey;
   color: white;
+  transition: 1s all ease-in-out;
+}
+section .box2.active {
+  transform: translateY(200px);
+  background-color: #383a39;
 }
 section .box3 {
   background-color: blue;
