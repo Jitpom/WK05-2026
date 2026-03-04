@@ -9,4 +9,12 @@ document.addEventListener("DOMContentLoaded", function() {
         heading.classList.toggle("active"); 
         box2.classList.toggle("active"); // Also toggle the "active" class for box2
     });
+
+    const box1 = document.querySelector(".box1");
+    const box3 = document.querySelector(".box3");
+
+    box1.addEventListener("click", function() {
+        box3.classList.toggle("active"); // Toggle the "active" class for box3 when box1 is clicked
+    });
+
 });

@@ -86,6 +86,7 @@ section .box {
   padding: 20px;
   color: #54d0c9;
   font-size: 5rem;
+  flex-shrink: 1;
 }
 section .box1 {
   background-color: #383a39;
@@ -106,4 +107,10 @@ section .box3 {
   background-color: blue;
   box-shadow: 30px 30px 10px grey;
   color: white;
+  transition: 1s all ease-in-out;
+}
+section .box3.active {
+  width: 60%;
+  background-color: #383a39;
+  transform: rotate(90deg);
 }/*# sourceMappingURL=main.css.map */

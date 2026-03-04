@@ -44,6 +44,7 @@ section {
         @include flex-container();
         color: variables.$pom-color;
         font-size: (100/20)+rem;
+        flex-shrink: 1;
     }
 
     .box1{
@@ -61,5 +62,11 @@ section {
     
     .box3{
         @include box-color(blue, 30px);
+        transition: 1s all ease-in-out;
+        &.active{
+            width: 60%;
+            background-color: variables.$secondary-color;
+            transform: rotate(90deg);
+        }
     }
 }
