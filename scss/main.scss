@@ -22,7 +22,6 @@ header {
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
         width:100%;
         @include flex-container($gp: 20px);
         background-color: variables.$secondary-color;
