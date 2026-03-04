@@ -68,16 +68,16 @@ section .box {
 }
 section .box1 {
   background-color: #383a39;
-  box-shadow: 4px 4px 10px grey;
+  box-shadow: 10px 10px 10px grey;
   color: white;
 }
 section .box2 {
-  background-color: red;
+  background-color: 20px;
   box-shadow: 4px 4px 10px grey;
   color: white;
 }
 section .box3 {
   background-color: blue;
-  box-shadow: 4px 4px 10px grey;
+  box-shadow: 30px 30px 10px grey;
   color: white;
 }/*# sourceMappingURL=main.css.map */

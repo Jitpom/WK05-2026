@@ -3,9 +3,9 @@
 @use '_fonts';
 
 
-@mixin box-color($color: variables.$primary-color) {    
+@mixin box-color($color: black, $shadow-length: 4px) {    
     background-color: $color;
-    box-shadow: 4px 4px 10px grey;
+    box-shadow: $shadow-length $shadow-length 10px grey;
     color: white;
 }
 
@@ -23,14 +23,14 @@ section {
     }
 
     .box1{
-        @include box-color(variables.$secondary-color);     
+        @include box-color(variables.$secondary-color, 10px);     
     }
     
     .box2{
-        @include box-color(red);  
+        @include box-color(20px);  
     }
     
     .box3{
-        @include box-color(blue);
+        @include box-color(blue, 30px);
     }
 }
