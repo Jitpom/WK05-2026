@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const heading = document.querySelector(".heading");
     heading.addEventListener("click", function() {
-        alert("You clicked the heading!");
+        // Add the "active" class to the heading element when clicked
+        heading.classList.toggle("active"); 
     });
 });

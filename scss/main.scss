@@ -29,6 +29,10 @@
 .heading{
     @extend .pom;
     color: variables.$secondary-color;
+    transition: 1s all ease-in-out;
+    &.active{
+        color: variables.$pom-color;
+    }
 }
 
 section {

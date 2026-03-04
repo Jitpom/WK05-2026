@@ -63,6 +63,10 @@ body {
 
 .heading {
   color: #383a39;
+  transition: 1s all ease-in-out;
+}
+.heading.active {
+  color: #54d0c9;
 }
 
 section {
