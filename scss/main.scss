@@ -53,6 +53,17 @@ header {
     ;
 }
 
+#mouse{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: variables.$secondary-color;
+    &.cat{
+        background-color: variables.$secondary-color;
+        color: white;
+    }
+}
 
 .pom {
     color: variables.$pom-color;

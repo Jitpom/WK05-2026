@@ -34,3 +34,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    //This is where you write your script to run after the HTML document has been loaded.
+    const box = document.querySelectorAll(".box");
+
+    box.forEach((item) => {
+        item.addEventListener("click", function() {
+            item.classList.toggle("active");
+        });
+    });  
+
+    const mouse = document.querySelector("#mouse");     
+    mouse.addEventListener("click", function() {
+        // if(mouse.classList.contains("cat")) {
+        //     mouse.classList.remove("cat");
+        // } else {
+        //     mouse.classList.add("cat");
+        // }    
+        mouse.classList.toggle("cat");    
+    });
+
+});
