@@ -17,4 +17,20 @@ document.addEventListener("DOMContentLoaded", function() {
         box3.classList.toggle("active"); // Toggle the "active" class for box3 when box1 is clicked
     });
 
+    nav = document.querySelector("nav");
+    let lastScrollPos = 0;
+
+    window.addEventListener("scroll", () => {
+        let currentScrollPos = window.scrollY; // Modern version of scrollTop()
+        
+        // Header navigation visibility
+        if (nav) {
+            if (currentScrollPos > lastScrollPos) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+    });
+
 });

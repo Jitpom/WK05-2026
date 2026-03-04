@@ -53,6 +53,40 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #383a39;
+  color: #54d0c9;
+  font-size: 1.25rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: 1s all ease-in-out;
+}
+header nav.active {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+header nav .item {
+  cursor: pointer;
+  height: 100%;
+  transition: 0.5s all ease-in-out;
+}
+header nav .item:hover {
+  color: white;
+}
+
 .pom, .heading {
   color: #54d0c9;
   font-size: 2.5rem;
@@ -113,4 +147,29 @@ section .box3.active {
   width: 60%;
   background-color: #383a39;
   transform: rotate(90deg);
+}
+section .item1, section .item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 20px;
+  width: 25%;
+  height: 300px;
+  background-color: #54d0c9;
+  color: #383a39;
+}
+section .item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 20px;
+  width: 50%;
+  height: 300px;
+  background-color: #383a39;
+  color: #54d0c9;
+}
+section .item3 {
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */
