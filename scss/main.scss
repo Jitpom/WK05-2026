@@ -9,16 +9,21 @@
     color: white;
 }
 
-section {
+@mixin flex-container($align-items: center, $gap: 4px) {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+
+section {
+    @include flex-container($gap:20px);
     padding: 20px;
     .box{
         height: 200px;
         flex-grow: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-container();
         color: variables.$pom-color;
     }
 

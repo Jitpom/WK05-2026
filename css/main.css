@@ -55,6 +55,8 @@ body {
 
 section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   padding: 20px;
 }
@@ -64,6 +66,7 @@ section .box {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4px;
   color: #54d0c9;
 }
 section .box1 {
