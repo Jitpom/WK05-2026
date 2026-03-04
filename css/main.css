@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,6 +49,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 section {
   display: flex;
   gap: 20px;
@@ -62,11 +67,17 @@ section .box {
   color: #54d0c9;
 }
 section .box1 {
-  background-color: #59fb69;
+  background-color: #383a39;
+  box-shadow: 4px 4px 10px grey;
+  color: white;
 }
 section .box2 {
-  background-color: #383a39;
+  background-color: red;
+  box-shadow: 4px 4px 10px grey;
+  color: white;
 }
 section .box3 {
-  background-color: #54d0c9;
+  background-color: blue;
+  box-shadow: 4px 4px 10px grey;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

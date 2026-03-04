@@ -1,5 +1,13 @@
 @use '_variables';   
 @use '_reset';
+@use '_fonts';
+
+
+@mixin box-color($color: variables.$primary-color) {    
+    background-color: $color;
+    box-shadow: 4px 4px 10px grey;
+    color: white;
+}
 
 section {
     display: flex;
@@ -15,14 +23,14 @@ section {
     }
 
     .box1{
-        background-color: variables.$primary-color;        
+        @include box-color(variables.$secondary-color);     
     }
     
     .box2{
-        background-color: variables.$secondary-color;
+        @include box-color(red);  
     }
     
     .box3{
-        background-color: variables.$pom-color;
+        @include box-color(blue);
     }
 }
